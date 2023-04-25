@@ -404,6 +404,10 @@ footer>p {
 
 @media screen and (max-width: 630px) {
 
+    body{
+        padding: 20px 30px 0px;
+    }
+
     .navbar li>a,
     .resume-button {
         display: none;
@@ -456,7 +460,7 @@ footer>p {
 
     .about_me>div:last-child{
         order: 1;
-        padding-bottom: 70px;
+        margin-bottom: 50px;
     }
 
     .about_me>div:first-child{
@@ -470,16 +474,25 @@ footer>p {
     }
 
     .project_image > img{
-        max-width: 340px !important;
-        height: 200px !important;
+        max-width: 285px !important;
+        height: 170px !important;
     }
 
     .about_me>div:last-child {
-        width: 300px;
+        width: 290px;
+        height: 350px;
     }
 
     .contact_section > h1 {
         font-size: 35px;
+    }
+
+    .experience_section > ul {
+        padding-left: 0px;
+    }
+
+    .github-icon > i {
+        margin-bottom: 20px;
     }
 }
 
