@@ -342,8 +342,14 @@ h2,
     color: #f2f2f2;
 }
 
-.github-icon:hover{
+.github-icon:hover, .link-icon:hover{
     color: #F66B0E;
+}
+
+.link-icon{
+    font-size: 22px;
+    color: #f2f2f2;
+    padding-left: 20px;
 }
 
 /* Contact Section */
@@ -356,7 +362,7 @@ h2,
 }
 
 .contact_section>p:first-child {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 530;
 }
 
@@ -493,6 +499,14 @@ footer>p {
 
     .github-icon > i {
         margin-bottom: 20px;
+    }
+
+    .project_content>.project_desc{
+        padding: 1px 25px;
+    }
+
+    .about_me>div:first-child>div:last-child>ul{
+        padding-left: 10px;
     }
 }
 
