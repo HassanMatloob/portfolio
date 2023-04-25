@@ -28,7 +28,7 @@ body {
     background: #8b3902;
 }
 
-.fa-brands,
+
 .about_section>div>h1>span,
 .about_me>div:first-child>div>span,
 .experience_section>div>h1>span,
@@ -154,11 +154,6 @@ h2,
     color: #8892b0;
     font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", system-ui, sans-serif;
     margin: 30px 0px 70px;
-}
-
-.desc>a {
-    color: #F66B0E;
-    text-decoration: none;
 }
 
 /* about section */
@@ -298,14 +293,16 @@ h2,
     padding-right: 25px;
 }
 
-.project_content>.project_desc>p>a {
+.project_content>.project_desc>p>a, .about_me a, .desc>a {
     text-decoration: none;
     display: inline-block;
     position: relative;
     color: #f66b0e;
 }
 
-.project_content>.project_desc>p>a::after {
+
+
+.project_content>.project_desc>p>a::after, .about_me a::after, .desc>a::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -318,7 +315,7 @@ h2,
     transition: transform 0.25s ease-out;
 }
 
-.project_content>.project_desc>p>a:hover:after {
+.project_content>.project_desc>p>a:hover:after, .about_me a:hover:after, .desc>a:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
@@ -336,8 +333,17 @@ h2,
 
 }
 
-.project_image>a>img {
+.project_image > img {
     border-radius: 3px;
+}
+
+.github-icon{
+    font-size: 25px;
+    color: #f2f2f2;
+}
+
+.github-icon:hover{
+    color: #F66B0E;
 }
 
 
@@ -466,7 +472,7 @@ footer>p {
         display: block;
     }
 
-    .project_image > a > img{
+    .project_image > img{
         max-width: 340px !important;
         height: 200px !important;
     }
