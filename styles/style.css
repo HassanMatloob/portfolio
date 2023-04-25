@@ -475,8 +475,12 @@ footer>p {
     }
 
     .about_me>div:last-child {
-        width: 400px;
-        height: auto;
+        width: 300px;
+        height: 250px;
+    }
+
+    .contact_section > h1 {
+        font-size: 35px;
     }
 }
 
