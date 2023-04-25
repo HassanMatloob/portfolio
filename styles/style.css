@@ -230,7 +230,7 @@ h2,
 .about_me>div:last-child {
     width: 1600px;
     height: 400px;
-    background: linear-gradient(rgba(152, 158, 209, 0.1), rgba(63, 68, 145, 0.1)), url(images/pic_me.jpeg);
+    background: linear-gradient(rgba(152, 158, 209, 0.1), rgba(63, 68, 145, 0.1)), url(images/pic_me.png);
     background-size: 300px 400px;
     background-repeat: no-repeat;
     border-radius: 2px;
