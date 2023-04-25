@@ -7,6 +7,7 @@
     <title>Hassan Matloob</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="/styles/style.css" />
+    <script src="/js/index.js"></script>
 
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
     <link
@@ -25,7 +26,7 @@
     <!-- Header  -->
 
     <header>
-      <nav>
+      <nav class="navbar" id="myTopnav">  
         <div class="nav-icon">
           <a href="#"
             ><img
@@ -45,7 +46,7 @@
               <a href=""><span>&lt;02&gt;</span> Experience</a>
             </li>
             <li>
-              <a href=""><span>&lt;03&gt;</span> Work</a>
+              <a href="#work"><span>&lt;03&gt;</span> Work</a>
             </li>
             <li>
               <a href="#contact"><span>&lt;04&gt;</span> Contact</a>
@@ -56,8 +57,8 @@
               >Resume</a
             >
           </div>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
+          <a href="javascript:void(0);" class="icon" onclick="menuBar()">
+            <i id='menu-icon' class="fa fa-bars"></i>
           </a>
         </div>
       </nav>
@@ -73,11 +74,17 @@
           <a href="https://laravel.com/" target="_blank">Laravel</a>.
         </p>
 
-        <a href="https://github.com/HassanMatloob" target="_blank"
+        <a class="github_checkout_btn" href="https://github.com/HassanMatloob" target="_blank"
           >Check out on GitHub!</a
         >
       </div>
     </header>
+
+    <!-- divider -->
+
+    <div id="wrap">
+      <span>_ _ _ _ _ _ _ </span>
+    </div>
 
     <!-- About Section  -->
 
@@ -123,9 +130,15 @@
       </div>
     </section>
 
+    <!-- divider -->
+
+    <div id="wrap">
+      <span>_ _ _ _ _ _ _ </span>
+    </div>
+
     <!-- Experience Section -->
 
-    <section class="experience_section">
+    <section id="work" class="experience_section">
       <div>
         <h1>
           <span>&lt;03&gt;</span>Some Things I've Built
@@ -170,7 +183,7 @@
             </div>
           </div>
           <div class="project_image">
-            <a href="">
+            <a href="https://github.com/HassanMatloob/Chess-Game-Hassan" target="_blank">
               <img
                 src="/images/chess.png"
                 alt="chess"
@@ -184,6 +197,12 @@
       </ul>
     </section>
 
+     <!-- divider -->
+
+     <div id="wrap">
+      <span>_ _ _ _ _ _ _ </span>
+    </div>
+
     <!-- Contact Section -->
 
     <section class="contact_section">
@@ -191,7 +210,7 @@
       <h1>Get In Touch</h1>
       <p class="cont_desc">
         Although I’m not currently looking for any new opportunities, my inbox
-        is always open. Whether youhave a question or just want to say hi, I’ll
+        is always open. Whether you have a question or just want to say hi, I’ll
         try my best to get back to you!
       </p>
       <a href="mailto:muhammadhassanjutt786@gmail.com">Say Hello</a>
