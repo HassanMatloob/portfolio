@@ -476,6 +476,7 @@ footer>p {
 
     .about_me>div:last-child {
         width: 400px;
+        height: auto;
     }
 }
 
