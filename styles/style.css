@@ -346,9 +346,6 @@ h2,
     color: #F66B0E;
 }
 
-
-
-
 /* Contact Section */
 
 .contact_section {
@@ -475,6 +472,10 @@ footer>p {
     .project_image > img{
         max-width: 340px !important;
         height: 200px !important;
+    }
+
+    .about_me>div:last-child {
+        width: 400px;
     }
 }
 
